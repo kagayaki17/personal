@@ -48,6 +48,14 @@ group :development do
   gem 'paperclip'
   gem 'kaminari'
 
-  
+group :production, :staging do
+  gem 'rails_12factor'
+end
+
+group :production do
+  gem 'rails_12factor'
+  gem 'pg'
+end
+
 end
 
