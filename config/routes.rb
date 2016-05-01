@@ -3,4 +3,3 @@ Rails.application.routes.draw do
   resources :prmovie, only: :index
   root to: "top#index"
 end
-
