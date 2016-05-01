@@ -41,10 +41,10 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'pry-rails'
+  gem 'web-console', '~> 2.0'
 
 group :production, :staging do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'devise'
   gem 'paperclip'
