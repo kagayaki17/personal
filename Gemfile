@@ -35,6 +35,9 @@ gem 'devise'
 gem 'paperclip'
 gem 'kaminari'
 gem 'spring'
+gem 'therubyracer'
+gem 'twitter-bootstrap-rails'
+gem 'bootstrap-material-design', '0.1.4'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
