@@ -39,10 +39,6 @@ gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-material-design', '0.1.4'
 
-group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-end
-
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
 
