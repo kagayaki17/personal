@@ -39,6 +39,10 @@ gem 'therubyracer'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap-material-design', '0.1.4'
 
+group :development, :test do
+  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
 
@@ -46,8 +50,15 @@ group :development do
   gem 'pry-rails'
   gem 'web-console', '~> 2.0'
 end
+
+
 group :production, :staging do
   gem 'byebug'
+  gem 'web-console', '~> 2.0'
+  gem 'spring'
+  gem 'devise'
+  gem 'paperclip'
+  gem 'kaminari'
   gem 'rails_12factor'
 end
 
